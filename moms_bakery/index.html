@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Disneyland</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <script type="text/javascript">
+  window.onload = function() {
+  let spinner = document.getElementById('loading');
+  spinner.classList.add('loaded');
+}
+  </script>
+  <div id="loading" class="box">
+    <center>
+      <span>Loading...</span>
+    </center>
+    </div>
+  </div>
+  <header>
+    <img src="img/header.png">
+  </header>
+
+  <nav>
+    <b>
+      <ul>
+        <li><a href="#shop" id="point">Recommended　Point</a></li>
+        <li><a href="#price" id="hae">映えスポット</a></li>
+        <li><a href="#photo" id="food">食べ物</a></li>
+        <li><a href="#access" id="information">イベント情報</a></li>
+      </ul>
+    </b>
+  </nav>
+
+  <section class="shop" id="shop">
+    <h2 class="title" id="good">Disney land's good point</h2>
+    <p>
+      <img src="img/good.jpg" width="200">
+      ここに説明を書くーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+      ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+    </p>
+  </section>
+
+  <section class="photo" id="photo">
+    <h2 class="title">映えスポット</h2>
+    <img src="img/hae.png" id="img_hae">
+    <!--
+    <div class="big">
+      <img src="img/cro-big.jpg">
+      <h3>さくさくクロワッサン</h3>
+    </div>a
+    <div class="box">
+      <div class="small">
+        <img src="img/danish.jpg">
+        <h3>レーズンデニッシュ</h3>
+      </div>
+      <div class="small">
+        <img src="img/rye.jpg">
+        <h3>こだわりライ麦パン</h3>
+      </div>
+    </div>
+    <p>毎日8:00、12:00、15:00に焼きたてのパンをご用意してお待ちしております。</p>
+-->
+  </section>
+
+  <section class="price" id="price">
+    <h2 class="title">
+      食べ物
+    </h2>
+    <center>
+    <table>
+
+      <tr>
+        <th id="osusume">おすすめグルメ</th>
+        <th id="nedan">値段</th>
+      </tr>
+      <tr>
+        <td><center>ミッキーサンドアイス</center></td>
+        <td><span>310</span>円</td>
+      </tr>
+      <tr>
+        <td><center>ミッキーワッフル</center></td>
+        <td><span>500</span>円</td>
+      </tr>
+      <tr>
+        <td><center>リトルグリーンマン</center></td>
+        <td><span>360</span>円</td>
+      </tr>
+      <tr>
+        <td><center>ミッキーチュロス</center></td>
+        <td><span>350</span>円</td>
+      </tr>
+      <tr>
+        <td><center>スモークターキーレッグ</center></td>
+        <td><span>800</span>円</td>
+      </tr>
+
+    </table>
+        </center>
+  </section>
+
+  <section class="access" id="access">
+    <h2 class="title">イベント情報</h2>
+    <div>
+      <center>
+      <h3>ディズニークリスマス</h3>
+
+      <ul　id="kurisumasu">
+        <li>期間：11月10日～12月25日</li>
+        <li>特徴：華やかできらびやかなパレードを楽しめます！！
+        </li>
+      </ul>
+    </div>
+    <div>
+      <img src="img/map.png">
+    </div>
+  </center>
+  </section>
+
+  <footer>&copy; this page made by石川　愛麻</footer>
+</body>
+
+</html>

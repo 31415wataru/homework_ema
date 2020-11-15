@@ -1,0 +1,204 @@
+.box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+          transition: all 1.5s ease;
+  color: white;
+  font-size: 50px;
+  background-color: #ffddcf;
+  padding-top: 300px;
+}
+.box.loaded{
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+h1 {
+  color: #f9135e;
+  font-size: 100px;
+  font-family: lobster;
+  text-align: center;
+  background-image: url(img/land.jpg)
+  height: 350px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+header img{
+  width: 100%;
+}
+
+nav {
+  background-color: #ffddcf;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  color: #ffffdd;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffcc11;
+}
+
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 25px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+#point{
+  color: orange;
+}
+#hae{
+  color: blue;
+}
+#food{
+  color: pink;
+}
+#information{
+  color: #FFFFAA;
+  }
+  #good{
+  color: orange;
+  }
+  #img_hae{
+    width: 100%;
+  }
+  #kurisumas{
+    font-size: 55px;
+  }
+.shop {
+  background-color:
+  color: #bef8ff;
+}
+
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-color: #663300;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-left: 60px;
+}
+
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.shop img {
+  float: right;
+  width: 50%;
+  border-radius: 25px;
+}
+
+.photo h2 {
+  color: #ffc4d5;
+  border-color: #ffcc11;
+}
+
+.photo p {
+  color: #ffffff;
+  clear: left;
+  margin: 20px;
+}
+
+.big {
+  background-color: #ffc4d5;
+  width: 500px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float: left;
+  transform: rotate(-5deg);
+}
+
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+.box {
+  float: left;
+}
+
+.price {
+}
+
+.price h2 {
+  color: pink;
+  border-left: 10px solid #ffcc11;
+}
+
+.price table {
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.price td {
+  border: 1px solid pink;
+  padding: 10px;
+}
+
+.price th {
+  border: 1px solid pink;
+  padding: 10px;
+  text-align: left;
+  background: pink;
+}
+
+.season th {
+  background: #3dc;
+}
+
+.access {
+  color: #663300;
+  height: 400px;
+}
+
+.access h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0;
+  color: red;
+}
+
+.access div {
+  width: 50%;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer {
+  text-align: center;
+  background: #663300;
+}
